@@ -1,0 +1,24 @@
+header div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@font-face {
+    font-family: 'MyTTF';
+    src: url('assets/fonts/Bitcount_Grid_Double/static/BitcountGridDouble-Light.ttf');
+}
+
+@font-face {
+    font-family: 'MyOTF';
+    src: url('assets/fonts/ft-anima-font/FtAnimaMedium-j8yG.otf');
+}
+
+@font-face {
+    font-family: 'MyWOFF';
+    src: url('assets/fonts/bigparty4blue-font/misc/BigParty4Blue-2575.woff');
+}
+
+.ttf-font { font-family: 'MyTTF', serif; }
+.otf-font { font-family: 'MyOTF', sans-serif; }
+.woff-font { font-family: 'MyWOFF', cursive; }
